@@ -1,0 +1,44 @@
+body {
+    /*background-color: #92d56b; */
+}
+
+@media screen and (max-width:700px) {
+    .Resume {
+      display:flex;
+      flex-direction:column;
+      flex-wrap:wrap;
+       
+          }
+    } 
+
+.Resume {
+
+    display:flex; 
+    flex-direction: row; 
+  
+   .personalInfo {
+       background-color: #646464;
+       color: white;
+       display: flex;
+       flex-direction: column;
+       font-size: 0.9em;
+       min-width: 360px;
+        .pic {
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            padding-bottom:20px;
+        }
+   }
+
+   .EdExp {
+
+    font-size: 0.9em;
+    margin: 20px;
+    min-width: 360px;
+   }
+
+   h3 {
+       color: black;
+   }
+}

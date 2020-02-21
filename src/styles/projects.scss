@@ -1,0 +1,18 @@
+body{
+
+}
+
+.project {
+    background-color:#646464;
+    transition: transform 450ms;
+    &:hover {
+        transform: scale(1.13);
+        #para {
+            color: white;
+        }
+    }
+}
+
+h3 {
+    color: white;
+}
