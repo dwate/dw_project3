@@ -12,10 +12,10 @@ const Header = () => {
             </h1>
             <nav>
                 <ul className={headerstyles.navList}>
-            <li><Link className={headerstyles.navItem} activeClassName={headerstyles.activeNavItem} to ="/">home</Link></li>
-            <li><Link className={headerstyles.navItem} activeClassName={headerstyles.activeNavItem} to ="/about">about me.</Link></li>
-           <li><Link className={headerstyles.navItem} activeClassName={headerstyles.activeNavItem} to ="/projects">My Projects.</Link></li>
-           <li><Link className={headerstyles.navItem} activeClassName={headerstyles.activeNavItem} to ="/contact">Contact me.</Link></li>
+            <li><Link className={headerstyles.navItem} activeClassName={headerstyles.activeNavItem} to ="/">Home</Link></li>
+            <li><Link className={headerstyles.navItem} activeClassName={headerstyles.activeNavItem} to ="/about">About Me</Link></li>
+           <li><Link className={headerstyles.navItem} activeClassName={headerstyles.activeNavItem} to ="/projects">My Projects</Link></li>
+           <li><Link className={headerstyles.navItem} activeClassName={headerstyles.activeNavItem} to ="/contact">Contact Me</Link></li>
             </ul>
             </nav>
 

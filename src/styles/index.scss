@@ -272,9 +272,45 @@ html {
     line-height: 1.1;
     
   }
+
+  #hi {
+   
+    animation: hi 1500ms 500ms both;
+    @keyframes hi {
+      0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+    }
+  }
+
+  #whoiam {
+    
+    animation: whoiam 1500ms 750ms both;
+    @keyframes whoiam {
+      0% {
+        transform: translateX(-150%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+    }
+  }
   #byline {
     color: #646464;
+    animation: byline 1500ms 1000ms both;
+    @keyframes byline {
+      0% {
+        transform: translateX(-150%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+    }
   }
+
   h4 {
     margin-left: 0;
     margin-right: 0;
