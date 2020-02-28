@@ -1,9 +1,25 @@
 body{
+    
 
 }
-
+.proInfo {
+    display: flex;
+    flex-direction: column;
+   padding-bottom:35px;
+   margin-top: 20px;
+   align-content: center;
+   justify-content: space-between;
+   
+} 
 .project {
-    background-color:#646464;
+    display: flex;
+    flex: row;
+    align-content: center;
+    justify-content: space-between;
+    padding:20px;
+    margin-top: 35px;
+   
+    background-color:#8D8D8D;
     transition: transform 450ms;
     &:hover {
         transform: scale(1.13);
@@ -11,6 +27,10 @@ body{
             color: white;
         }
     }
+}
+
+.ExImg {
+    margin-right: 5px;
 }
 
 h3 {

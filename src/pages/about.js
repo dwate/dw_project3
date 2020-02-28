@@ -19,7 +19,7 @@ import aboutstyles from "../styles/about.scss"
                 Romford<br/>
                 RM7 0TR</p>
                 <p><b>E-mail:</b> <a href="mailto:dwaters525@googlemail.com">dwaters525@googlemail.com</a></p>
-          <p><b>Mobile:</b> +44 7846 983 356</p> 
+          <p><b>Mobile:</b> +44 XXXX XXX XXX</p> 
 
           <h2> PROFILE </h2>
           <hr/>
